@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaboPAB", "LaboPAB\LaboPAB.csproj", "{C7F203D7-1274-48FF-A8A3-E5B2FD33FCED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaboPabTests", "LaboPabTests\LaboPabTests.csproj", "{29576D79-C088-4264-AD11-1F37FADE6364}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaboPabApi", "LaboPabApi\LaboPabApi.csproj", "{F67213A0-A099-4D3B-80AC-7463DB143E61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaboPabRazor", "LaboPabRazor\LaboPabRazor.csproj", "{D209C3E0-47D6-47B1-BD60-2D0B2719F77F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaboPabSoap", "LaboPabSoap\LaboPabSoap.csproj", "{138E5774-B76E-44F2-A2EA-4E0ACAA8EABF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{9AD2CAF7-C905-4F5A-8481-8EDB647E739E}"
+	ProjectSection(SolutionItems) = preProject
+		DepartmentsControllerScript.sh = DepartmentsControllerScript.sh
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7F203D7-1274-48FF-A8A3-E5B2FD33FCED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7F203D7-1274-48FF-A8A3-E5B2FD33FCED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7F203D7-1274-48FF-A8A3-E5B2FD33FCED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7F203D7-1274-48FF-A8A3-E5B2FD33FCED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29576D79-C088-4264-AD11-1F37FADE6364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29576D79-C088-4264-AD11-1F37FADE6364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29576D79-C088-4264-AD11-1F37FADE6364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29576D79-C088-4264-AD11-1F37FADE6364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F67213A0-A099-4D3B-80AC-7463DB143E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F67213A0-A099-4D3B-80AC-7463DB143E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F67213A0-A099-4D3B-80AC-7463DB143E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F67213A0-A099-4D3B-80AC-7463DB143E61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D209C3E0-47D6-47B1-BD60-2D0B2719F77F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D209C3E0-47D6-47B1-BD60-2D0B2719F77F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D209C3E0-47D6-47B1-BD60-2D0B2719F77F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D209C3E0-47D6-47B1-BD60-2D0B2719F77F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{138E5774-B76E-44F2-A2EA-4E0ACAA8EABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{138E5774-B76E-44F2-A2EA-4E0ACAA8EABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{138E5774-B76E-44F2-A2EA-4E0ACAA8EABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{138E5774-B76E-44F2-A2EA-4E0ACAA8EABF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55FCEE0E-D593-4138-9B15-AD8DCEEB0E95}
+	EndGlobalSection
+EndGlobal
